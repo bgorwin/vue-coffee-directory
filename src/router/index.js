@@ -23,6 +23,21 @@ const routes = [
 		path: '/austin',
 		name: 'Austin',
 		component: () => import('../views/Austin.vue')
+	},
+	{
+		path: '/dallas',
+		name: 'Dallas',
+		component: () => import('../views/Dallas.vue')
+	},
+	{
+		path: '/sanfrancisco',
+		name: 'San Francisco',
+		component: () => import('../views/SanFrancisco.vue')
+	},
+	{
+		path: '/losangeles',
+		name: 'Los Angeles',
+		component: () => import('../views/LosAngeles.vue')
 	}
 ];
 

@@ -18,11 +18,11 @@
             <v-btn
               class="mb-4 ma-4"
               v-for="city in cities"
-              :key="city.label"
-              :to="city.url"
+              :key="city.id"
               outlined
               color="teal"
               dark
+              :to="city.url"
             >{{ city.label }}</v-btn>
           </div>
         </div>
@@ -31,13 +31,15 @@
 
     <v-row class="d-flex flex-direction-row">
       <v-col class="d-flex flex-row flex-wrap justify-center order-2" cols="12">
-        <div class="mr-4 mb-6" v-for="shop in shops" :key="`${shop.company}`">
+        <div class="mr-4 mb-6 coffeeShopCards" v-for="shop in shops" :key="`${shop.id}`">
           <CoffeeCards :shop="shop" />
         </div>
       </v-col>
     </v-row>
   </v-container>
 </template>
+
+// :to="city.url"
 
 <script>
 import CoffeeCards from "../components/CoffeeCards";
@@ -69,7 +71,8 @@ export default {
         }
       ]
     };
-  }
+  },
+  methods: {}
 };
 </script>
 

@@ -12,7 +12,7 @@
           md="6"
           lg="4"
           v-for="shop in shops"
-          :key="`${shop.company}`"
+          :key="`${shop.id}`"
         >
           <CoffeeCards :shop="shop" />
         </v-col>
