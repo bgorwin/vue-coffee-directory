@@ -26,7 +26,7 @@
             Coffee Passpord is an application that helps coffee lovers find the
             perfect coffee ship while in the city they're living in or traveling
             through. Each coffee shop has a rating, address and image to help with
-            finding which one suits your coffee needs.
+            finding which one suits your coffee needs...
           </blockquote>
         </v-col>
       </v-row>
