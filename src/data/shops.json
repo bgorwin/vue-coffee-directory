@@ -40,5 +40,12 @@
 		"address": "2823 E Martin Luther King Jr Blvd #101, Austin, TX 78702",
 		"rating": 9,
 		"city": "Austin"
+	},
+	{
+		"id": 6,
+		"company": "Test",
+		"address": "2823 E Martin Luther King Jr Blvd #101, Austin, TX 78702",
+		"rating": 9,
+		"city": "Dallas"
 	}
 ]

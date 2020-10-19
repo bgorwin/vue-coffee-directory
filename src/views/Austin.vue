@@ -17,6 +17,11 @@
           <CoffeeCards :shop="shop" />
         </v-col>
       </v-row>
+      <v-row>
+        <v-col class="d-flex justify-center" cols="12">
+          <HomeButton />
+        </v-col>
+      </v-row>
     </v-app>
   </v-container>
 </template>
@@ -24,10 +29,12 @@
 <script>
 import CoffeeCards from "../components/CoffeeCards";
 import shopData from "../data/shops.json";
+import HomeButton from "../components/HomeButton";
 
 export default {
   components: {
-    CoffeeCards
+    CoffeeCards,
+    HomeButton
   },
   data() {
     return {

@@ -72,7 +72,11 @@ export default {
       ]
     };
   },
-  methods: {}
+  methods: {
+    sortCities: function() {
+      return this.cities.label.filter(shopData.city);
+    }
+  }
 };
 </script>
 
