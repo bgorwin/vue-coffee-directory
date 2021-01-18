@@ -36,35 +36,40 @@ export default {
           company: "Intelligentsia",
           address: "3922 Sunset Blvd, Los Angeles, CA 90029",
           rating: 10,
-          city: "Los Angeles"
+          city: "Los Angeles",
+          image: "intelligentsia1.jpg"
         },
         {
           id: 1,
           company: "La Colombe Coffee Roasters",
           address: "3900 Sunset Blvd, Los Angeles, CA 90029",
           rating: 10,
-          city: "Los Angeles"
+          city: "Los Angeles",
+          image: "laColombe.jpg"
         },
         {
           id: 2,
           company: "Menotti's",
           address: "56 Windward Ave, Venice, CA 90291",
           rating: 10,
-          city: "Los Angeles"
+          city: "Los Angeles",
+          image: "menottis.jpg"
         },
         {
           id: 3,
           company: "Bar Nine",
           address: "3515 Helms Ave, Culver City, CA 90232",
           rating: 10,
-          city: "Los Angeles"
+          city: "Los Angeles",
+          image: "barNine.jpg"
         },
         {
           id: 4,
           company: "Stumptown",
           address: "806 S Santa Fe Ave, Los Angeles, CA 90021",
           rating: 8,
-          city: "Los Angeles"
+          city: "Los Angeles",
+          image: "default-img.jpg"
         }
       ]
     };

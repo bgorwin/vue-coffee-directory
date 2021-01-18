@@ -3,7 +3,7 @@
     <v-row id="home-heading">
       <v-col cols="12" justify="center">
         <div>
-          <v-img class="overlay" src="../img/home-page-background.jpg" max-height="270">
+          <v-img class="overlay" :src="require(`../img/home-page-background.jpg`)" max-height="270">
             <h1 class="austin-heading font-weight-thin text-center">Coffee Passport</h1>
           </v-img>
         </div>
@@ -18,11 +18,11 @@
             <v-btn
               class="mb-4 ma-4"
               v-for="city in cities"
+              :to="city.url"
               :key="city.id"
               outlined
               color="teal"
               dark
-              :to="city.url"
             >{{ city.label }}</v-btn>
           </div>
         </div>
@@ -38,8 +38,6 @@
     </v-row>
   </v-container>
 </template>
-
-// :to="city.url"
 
 <script>
 import CoffeeCards from "../components/CoffeeCards";
@@ -72,11 +70,7 @@ export default {
       ]
     };
   },
-  methods: {
-    sortCities: function() {
-      return this.cities.label.filter(shopData.city);
-    }
-  }
+  methods: {}
 };
 </script>
 
@@ -92,5 +86,10 @@ export default {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 60px;
+}
+
+.overlay {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
 }
 </style>

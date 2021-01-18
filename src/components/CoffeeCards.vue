@@ -1,10 +1,6 @@
 <template>
   <v-card max-width="300">
-    <v-img
-      class="white--text align-end"
-      height="200px"
-      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-    >
+    <v-img class="white--text align-end" height="200px" :src="require(`../img/${shop.image}`)">
       <v-card-title>{{ shop.company }}</v-card-title>
     </v-img>
 

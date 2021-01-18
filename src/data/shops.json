@@ -4,48 +4,47 @@
 		"company": "LeverCraft",
 		"address": "3307 Oak Springs Dr, Austin, TX 78721",
 		"rating": 10,
-		"city": "Austin"
+		"city": "Austin",
+		"image": "levercraft.jpg"
 	},
 	{
 		"id": 1,
 		"company": "Merit",
 		"address": "1105 S Lamar Blvd, Austin, TX 78704",
 		"rating": 9,
-		"city": "Austin"
+		"city": "Austin",
+		"image": "merit1.jpg"
 	},
 	{
 		"id": 2,
 		"company": "Greater Good",
 		"address": "2501 E 5th St, Austin, TX 78702",
 		"rating": 10,
-		"city": "Austin"
+		"city": "Austin",
+		"image": "greater_good1.jpg"
 	},
 	{
 		"id": 3,
 		"company": "Manana",
 		"address": "1603 S Congress Ave, Austin, TX 78704",
 		"rating": 9,
-		"city": "Austin"
+		"city": "Austin",
+		"image": "Manana1.jpg"
 	},
 	{
 		"id": 4,
 		"company": "Fleet",
 		"address": "2427 Webberville Rd, Austin, TX 78702",
 		"rating": 8,
-		"city": "Austin"
+		"city": "Austin",
+		"image": "fleet.jpg"
 	},
 	{
 		"id": 5,
 		"company": "Houndstooth Coffee",
 		"address": "2823 E Martin Luther King Jr Blvd #101, Austin, TX 78702",
 		"rating": 9,
-		"city": "Austin"
-	},
-	{
-		"id": 6,
-		"company": "Test",
-		"address": "2823 E Martin Luther King Jr Blvd #101, Austin, TX 78702",
-		"rating": 9,
-		"city": "Dallas"
+		"city": "Austin",
+		"image": "houndstooth.jpg"
 	}
 ]

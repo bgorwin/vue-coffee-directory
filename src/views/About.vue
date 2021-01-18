@@ -4,7 +4,7 @@
       id="parallax-image-about"
       dark
       height="820"
-      src="../img/about-parallax-background.png"
+      src="../img/about-parallax-background.jpg"
     >
       <v-row align="center" justify="center">
         <v-col class="text-center" cols="12">
@@ -46,7 +46,7 @@
                   </v-list-item-title>
                 </v-list-item-content>
               </v-list-item>
-              <v-img src="https://cdn.vuetifyjs.com/images/cards/mountain.jpg" height="194"></v-img>
+              <v-img :src="require(`../img/${about.image}`)" height="194"></v-img>
               <v-card-text>{{ about.description }}</v-card-text>
             </v-card>
           </v-col>
@@ -64,17 +64,20 @@ export default {
         {
           title: "Discover New Shops",
           description:
-            "When in a new city, discover high quality coffee shops that you may not find on other apps"
+            "When in a new city, discover high quality coffee shops that you may not find on other apps",
+          image: "default-background.jpg"
         },
         {
           title: "Rated Coffee Shop",
           description:
-            "Find shops that are only highly rated by users who have been there"
+            "Find shops that are only highly rated by users who have been there",
+          image: "default-img-3.jpg"
         },
         {
           title: "Why Use Coffee-Passport",
           description:
-            "Coffee-Passpord is a list of highly rated coffee shops where coffee shop owners have a passion for bringing you the finest coffee roasting for the perfect cup"
+            "Coffee-Passpord is a list of highly rated coffee shops where coffee shop owners have a passion for bringing you the finest coffee roasting for the perfect cup",
+          image: "home-page-background.jpg"
         }
       ]
     };
